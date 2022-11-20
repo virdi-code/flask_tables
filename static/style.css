@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto';
+    margin:1rem;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+div{
+    display:flex;
+    flex-direction:row;
+    padding:0  4rem;
+    justify-content: center;
+    
+}
+table{
+    border-spacing: 0;
+}
+
+.table__row:nth-child(even){
+    background-color: #e5e5e5;
+}
+.table__header{
+    text-align: left;
+}
+.table__cell{
+    padding:6px
+}
